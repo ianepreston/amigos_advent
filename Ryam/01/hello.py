@@ -36,7 +36,7 @@ while i < size:
     
     # find answer_2
     if answer_1 == basement & part_2 == False:
-        answer_2 = i + 1 # adjust for i = 0
+        answer_2 = i + 1 # adjust for i = 0 (?)
         part_2 = True    # prevent multiple answers
 
 # print answers

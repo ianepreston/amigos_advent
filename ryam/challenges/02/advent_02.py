@@ -28,7 +28,7 @@ def ribbon_length(_list):
     h = int(_list[2])
     # find smallest value
     sa_list = [l, w, h]
-    # sa_list.sort()
+    sa_list.sort()
     # return total
     length = (sa_list[0]*2) + (sa_list[1]*2)
     length += sa_list[0] * sa_list[1] * sa_list[2]
